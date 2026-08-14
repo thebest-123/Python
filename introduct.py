@@ -1,8 +1,14 @@
-#name
+#variable
+name=input("Enter your name")
+age=input("Enter your age")
 print("my name is david")
 #age
-print("i am 12 yesrs old")
+print("i am 12 yesrs old. \n I love coding.")
+
+print("\n")
 #country
-print("nigeria")
+print("i am from nigeria", end="**")
 #state
-print("kogi")
+print("i am from kogi", end="**")
+import keyword
+print(keyword.kwlist)
