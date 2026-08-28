@@ -23,3 +23,9 @@ elif age >= 6 and age <= 12:
 
     print("Child")  
 elif age >= 13 and age <= 19:
+    print("teenager")
+
+elif age >= 20 and age <= 120:
+    print("aldut")
+else:
+    print("invalid age")
