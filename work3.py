@@ -1,31 +1,25 @@
-def greet(name):#parameter:
-    print("Good morning",name)
-    print("How was your night?")
+def multiply(num1, num2):
+    mul = num1 * num2
+    print("Product:", mul)
+
+multiply(20, 10)
+multiply(5, 10)
 
 
-greet("David")#argument
-print("\n")
-greet("Evan")
-print("\n")
-greet("Danstan")
+def total_calc(bill_amount, tip_perc):
+    # define function to calculate the tip on bill
+    total = bill_amount * (1 + 0.01 * tip_perc)
+    total = round(total, 2)
+    print(f"Please pay ${total}")
 
-def add(a,b,c):
-    addition = a+b+c
-    print(addition)
+# specify only bill_amount
+# default value of tip percentage is used
 
-add(10,20,30)
-
-def sub(a,b):
-    sub = a-b
-    return sub
-print(sub(30,20))
+total_calc(150, 20)
 
 
-def details():
-    name =input("Enter name:")
-    age = int(input("Enter age:"))
-    print(name)
-    print(age)
-
-
-details()
+def age(currentyear, birthyear ):
+    sub = currentyear - birthyear
+    print("age:", sub)
+age(2026, 2014)
+    
